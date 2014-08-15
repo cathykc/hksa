@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Penn Hong Kong Student Association</title>
+	<link rel="icon" type="image/png" href="img/logo.png" />
+	<link rel="stylesheet" href="css/style.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id="heads">
+			<table>
+				<tr>
+					<td>
+						<div id="logo">
+							<img src="img/logo.png">
+						</div>
+					</td>
+					<td>
+						<div id="head">
+							Hong Kong Student Association
+						</div>
+					</td>
+					<td>
+						<div id="info">
+							Meet the new board!
+						</div>
+					</td>
+				</tr>
+			</table>
+	</div>
+
+	
+	<div id="content">
+		<div id="grid">
+			<center>
+				<table>
+					<tr>
+						<td>
+							<div class="left" id="apan">
+								<!-- <img src="img/board_angela.jpg"> -->
+							</div>
+						</td>
+						<td>
+							<div class="middle" id="jchung">
+								<!-- <img src="img/board_janice.jpg"> -->
+							</div>
+						</td>
+						<td>
+							<div class="middle" id="nchan">
+								<!-- <img src="img/board_janice.jpg"> -->
+							</div>
+						</td>
+						<td>
+							<div class="right" id="aliao">
+								<!-- <img src="img/board_nate.jpg"> -->
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<div class="left" id="cchen">
+								<!-- <img src="img/board_alex.jpg"> -->
+							</div>
+						</td>
+						<td>
+							<div class="middle" id="bchin">
+								<!-- <img src="img/board_brandon.jpg"> -->
+							</div>
+						</td>
+						<td>
+							<div class="middle" id="wzhang">
+								<!-- <img src="img/board_janice.jpg"> -->
+							</div>
+						</td>
+						<td>
+							<div class="right" id="tlorimer">
+								<!-- <img src="img/board_cathy.jpg"> -->
+							</div>
+						</td>
+					</tr>
+
+				</table>
+			</center>
+		</div>
+		
+		<div id="soon">
+			...website coming soon.
+		</div>
+
+		<div id="created">
+			Created by Cathy Chen.
+		</div>
+	</div>
+</body>
+</html>
+
+<script>
+$(document).ready(function() {
+   $("#apan").mouseenter(function() {
+       $("#info").html("<b>PRESIDENT</b><br>Angela Pan | ECON | SAS'16<br>angelabixiapan@gmail.com");
+   });
+   $("#apan").mouseleave(function() {
+       $("#info").html("Meet the new board!");
+   });
+
+   $("#jchung").mouseenter(function() {
+       $("#info").html("<b>EXTERNAL VP</b><br>Janice Chung | W'16<br>chungcho@wharton.upenn.edu");
+   });
+   $("#jchung").mouseleave(function() {
+       $("#info").html("Meet the new board!");
+   });
+
+   $("#nchan").mouseenter(function() {
+       $("#info").html("<b>INTERNAL VP</b><br>Nathaniel Chan | NETS | SEAS'17<br>natc221@gmail.com");
+   });
+   $("#nchan").mouseleave(function() {
+       $("#info").html("Meet the new board!");
+   });
+
+   $("#aliao").mouseenter(function() {
+       $("#info").html("<b>TREASURER</b><br>Alex Liao | CIS/PHYS | SEAS'17-SAS'17<br>alexliao1995@gmail.com");
+   });
+   $("#aliao").mouseleave(function() {
+       $("#info").html("Meet the new board!");
+   });
+
+
+   $("#cchen").mouseenter(function() {
+       $("#info").html("<b>AN IMPORTANT JOB</b><br>Cathy Chen | M&T | SEAS'17-W'17<br>cathykaichen@gmail.com");
+   });
+   $("#cchen").mouseleave(function() {
+       $("#info").html("Meet the new board!");
+   });
+
+   $("#bchin").mouseenter(function() {
+       $("#info").html("<b>MARKETING</b><br>Brandon Chin | W'17<br>branchin@wharton.upenn.edu");
+   });
+   $("#bchin").mouseleave(function() {
+       $("#info").html("Meet the new board!");
+   });
+
+   $("#wzhang").mouseenter(function() {
+       $("#info").html("<b>EXTERNAL-ALUMNI AFFAIRS</b><br>William Zhang | W'17<br>williamyzhang@gmail.com");
+   });
+   $("#wzhang").mouseleave(function() {
+       $("#info").html("Meet the new board!");
+   });
+
+   $("#tlorimer").mouseenter(function() {
+       $("#info").html("<b>SOCIAL EVENTS</b><br>Tara Lorimer | BE | SEAS'16<br>taralorimer@gmail.com");
+   });
+   $("#tlorimer").mouseleave(function() {
+       $("#info").html("Meet the new board!");
+   });
+
+
+});
+</script>
